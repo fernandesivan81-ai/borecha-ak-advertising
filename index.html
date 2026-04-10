@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <title>Borécha Pitch Deck</title>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0fff4;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+        h1, h2, h3 {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background-color: #81c784;
+            padding: 50px 20px;
+            text-align: center;
+            animation: fadeIn 1s;
+        }
+        .fade-in {
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #4caf50;
+            color: white;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        @media (max-width: 600px) {
+            header, footer, .hero {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Borécha Pitch Deck</h1>
+    </header>
+    <section class="hero">
+        <h2>Introducing Our Product</h2>
+        <p>Explore our innovative solutions designed to drive growth.</p>
+        <img src="https://via.placeholder.com/600x300" alt="Product Image" style="max-width: 100%; height: auto;">
+    </section>
+    <section class="grid">
+        <div class="card fade-in">
+            <h3>Statistics</h3>
+            <p>[Statistics Data]</p>
+        </div>
+        <div class="card fade-in">
+            <h3>Opportunity Grid</h3>
+            <p>[Opportunity Data]</p>
+        </div>
+        <div class="card fade-in">
+            <h3>ROI Metrics</h3>
+            <p>[ROI Data]</p>
+        </div>
+        <div class="card fade-in">
+            <h3>Social Flywheel</h3>
+            <p>[Social Media Links]</p>
+        </div>
+        <div class="card fade-in">
+            <h3>Network Locations</h3>
+            <p>[Locations Data]</p>
+        </div>
+        <div class="card fade-in">
+            <h3>Deliverables</h3>
+            <p>[Project Deliverables]</p>
+        </div>
+    </section>
+    <div class="cta">
+        <h3>Get in Touch</h3>
+        <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2026 Borécha, All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
